@@ -25,7 +25,7 @@ export const getAnimeEpisodes = async () => {
 
         const episodeChoices = currentEpisodes.map((episode, index) => ({
           value: episode,
-          label: `Episódio ${startIndex + index + 1}: ${episode.title}`,
+          label: `${episode.title}`,
         }));
 
         const navigationChoices = [
