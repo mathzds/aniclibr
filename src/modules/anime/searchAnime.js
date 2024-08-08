@@ -1,7 +1,7 @@
 import chalk from "chalk";
 import { text } from "@clack/prompts";
 import Controller from "../../controller/index.js";
-import { showMainMenu } from './showMainMenu.js';
+import { showMainMenu } from "../showMainMenu.js";
 
 export const searchAnime = async () => {
   const query = await text({

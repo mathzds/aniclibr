@@ -2,7 +2,7 @@ import chalk from "chalk";
 import { select, text } from "@clack/prompts";
 import Controller from "../../controller/index.js";
 import { exec } from "child_process";
-import { showMainMenu } from './showMainMenu.js';
+import { showMainMenu } from "../showMainMenu.js";
 
 export const getAnimeEpisodes = async () => {
   const categoryId = await text({

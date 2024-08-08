@@ -1,7 +1,7 @@
-import { searchAnime } from './searchAnime.js';
-import { getReleases } from './getReleases.js';
-import { getAnimeDetail } from './getAnimeDetail.js';
-import { getAnimeEpisodes } from './getAnimeEpisodes.js';
+import { searchAnime } from './anime/searchAnime.js';
+import { getReleases } from './anime/getReleases.js';
+import { getAnimeDetail } from './anime/getAnimeDetail.js';
+import { getAnimeEpisodes } from './anime/getAnimeEpisodes.js';
 import { select } from "@clack/prompts";
 
 export const showMainMenu = async () => {
